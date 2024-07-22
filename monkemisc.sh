@@ -11,13 +11,13 @@ read -p "Enter your choice: " choice
 
 case $choice in
     1)
-        echo "Force Deleter FDel selected"
+        wget https://raw.githubusercontent.com/monkebutcool/Termux-Stuff/main/modules/FDel.py
         ;;
     2)
-        echo "YouTube Channel Finder FindYT selected"
+        wget https://raw.githubusercontent.com/monkebutcool/Termux-Stuff/main/modules/FindYT.py
         ;;
     3)
-        echo "Website Up Or Not SiteUpNot selected"
+        wget https://raw.githubusercontent.com/monkebutcool/Termux-Stuff/main/modules/SiteUpNot.py
         ;;
     [Aa])
         echo "Author selected. Visit: https://apksntermux.blogspot.com/"
