@@ -7,7 +7,7 @@ read -p "" choice
 
 case $choice in
     [Yy])
-        pkg upgrade && pkg update && apt update && apt upgrade && pkg install wget && cd $HOME && mkdir MonkeMisc && wget https://monkebutcool.github.io/Termux-Stuff/MonkeMisc.sh && echo -e "\033[32m Successfully installed MonkeMisc!\033[0m
+        pkg upgrade && pkg update && apt update && apt upgrade && pkg install wget && pkg install python && cd $HOME && mkdir MonkeMisc && wget https://monkebutcool.github.io/Termux-Stuff/MonkeMisc.sh && echo -e "\033[32m Successfully installed MonkeMisc!\033[0m
         ;;
     [Nn])
         cd $HOME
