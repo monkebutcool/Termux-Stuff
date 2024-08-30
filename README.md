@@ -4,7 +4,7 @@
 ## Description
 MonkeMisc is a thing I did to downlaod and run my files for everyone.
 
-## Modules
+## Projects
 ### FDel
 - **Description:** Lists all the files and folders of user and gives choices for user to delete them (password protected).
 
