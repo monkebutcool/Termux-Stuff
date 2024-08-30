@@ -25,7 +25,7 @@ MonkeMisc is a thing I did to downlaod and run my files for everyone.
 
 2. Clone the repository:
     ```bash
-    git clone git clone https://github.com/monkebutcool/Termux-Stuff.git && mkdir -p $HOME/MonkeMisc && cp -r Termux-Stuff/* $HOME/MonkeMisc
+    git clone https://github.com/monkebutcool/Termux-Stuff.git && mkdir -p $HOME/MonkeMisc && cp -r Termux-Stuff/* $HOME/MonkeMisc
     ```
     
 3. CD to repository folder:
