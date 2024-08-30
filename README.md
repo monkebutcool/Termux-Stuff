@@ -23,18 +23,21 @@ MonkeMisc is a thing I did to downlaod and run my files for everyone.
     ```bash
     git clone https://github.com/yourusername/your.git
     ```
+    
 2. CD to repository folder:
 ```bash
     cd MonkeMisc
-    ```
+```
+
 3. Run monkemisc-installer.sh
 ```bash
     bash monkemisc-installer.sh
-    ```
+```
+
 4. When payload is downloaded run monkemisc.js
 ```bash
     node monkemisc.js
-    ```
+```
 
 ## Author
-[![monkebutcool](https://github.com/monkebutcool/)]
+[monkebutcool](https://github.com/monkebutcool/)
