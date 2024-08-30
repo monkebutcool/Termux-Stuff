@@ -19,22 +19,26 @@ MonkeMisc is a thing I did to downlaod and run my files for everyone.
 - **Description:** Generates random IPs with randomly chosen numbers when you press enter.
 
 ## How to download MonkeMisc?
-1. Clone the repository:
+1. Install git:
+    ```bash
+    pkg install git
+
+2. Clone the repository:
     ```bash
     git clone git clone https://github.com/monkebutcool/Termux-Stuff.git && mkdir -p $HOME/MonkeMisc && cp -r Termux-Stuff/* $HOME/MonkeMisc
     ```
     
-2. CD to repository folder:
+3. CD to repository folder:
 ```bash
     cd MonkeMisc
 ```
 
-3. Run monkemisc-installer.sh
+4. Run monkemisc-installer.sh
 ```bash
     bash monkemisc-installer.sh
 ```
 
-4. When payload is downloaded run monkemisc.js
+5. When payload is downloaded run monkemisc.js
 ```bash
     node monkemisc.js
 ```
