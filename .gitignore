@@ -1,2 +1,7 @@
 modules/
-monkemisc.sh
+monkemisc.js
+monkemisc.png
+README.md
+LICENSE
+.gitignore
+monkemisc-installer.sh
