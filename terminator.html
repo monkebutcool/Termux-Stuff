@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Webhook Terminator</title>
+    <link rel="stylesheet" href="terminator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="window">
+        <div class="title-bar">
+            <div class="title-bar-text">Discord Webhook Terminator [XP EDITION LMFAO!1!1!11!!1!!!!]</div>
+            <div class="title-bar-controls">
+                <button class="minimize">_</button>
+                <button class="maximize">□</button>
+                <button class="close">×</button>
+            </div>
+        </div>
+        <div class="window-body">
+            <label for="webhook-url">Discord Webhook URL:</label>
+            <input type="text" id="webhook-url" placeholder="Enter webhook URL.....">
+            <button id="delete-button">Terminate</button>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-title-bar">
+                <span class="modal-title">Information</span>
+                <button class="modal-close-button">×</button>
+            </div>
+            <div class="modal-body">
+                <p id="modal-message"></p>
+                <button id="modal-ok-button">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="terminator.js"></script>
+</body>
+</html>

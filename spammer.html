@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Webhook Spammer</title>
+    <link rel="stylesheet" href="spammer.css">
+     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="window">
+        <div class="title-bar">
+            <div class="title-bar-text">Discord Webhook Spammer</div>
+            <div class="title-bar-controls">
+                <button class="close">×</button>
+            </div>
+        </div>
+        <div class="window-body">
+            <label for="webhook-url">Discord Webhook URL:</label>
+            <input type="text" id="webhook-url" placeholder="Enter Webhook URL.....">
+
+            <label for="spam-message">Spam Message:</label>
+            <input type="text" id="spam-message" placeholder="Enter Spam Text.....">
+
+            <button id="start-button">Start</button>
+            <button id="stop-button" disabled>Stop</button>
+            <button id="continue-button" disabled>Continue</button>
+            <button id="abort-button">Abort</button>
+        </div>
+    </div>
+
+    <script src="spammer.js"></script>
+</body>
+</html>
